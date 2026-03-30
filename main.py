@@ -190,7 +190,6 @@ def fit(
             best_auc_epoch = epoch
             consecutive_drops = 0
             best_model_state = {k: v.cpu().clone() for k, v in model.state_dict().items()}
-            if epoch % 10 == 0 or epoch < 20:
         else:
             if epoch >= warmup_epochs:
                 auc_drop = best_auc - current_auc
@@ -211,6 +210,7 @@ def fit(
         best_model_path = os.path.join(best_model_dir, f"best_model_fold{fold_cnt}.pth")
         torch.save(best_model_state, best_model_path)
     else:
+        pass
 
 logger = Logger(5)
 
