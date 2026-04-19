@@ -13,7 +13,6 @@ Noise in negative samples
 <img width="832" height="772" alt="image" src="https://github.com/user-attachments/assets/a16a28c8-0e90-4335-b433-751b83d3a7da" />
 
 # Getting Started
-Installation
 # Create environment
 conda create -n PTGCDA python=3.10 -y
 conda activate PTGCDA
