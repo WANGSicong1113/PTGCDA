@@ -55,8 +55,6 @@ Output
 - Prediction scores for circRNA–disease associations
 - Ranked candidate associations for downstream validation
 # Data
-Data
-
 Five benchmark datasets are included:
 
 - CircR2Disease
