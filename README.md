@@ -1,5 +1,4 @@
-<img width="832" height="772" alt="image" src="https://github.com/user-attachments/assets/775218dd-7085-4e9e-80ab-74c450e8eb4e" /># PTGCDA
-PTGCDA: a PU-learning-driven Transformer and GraphSAGE framework for circRNA-disease association prediction
+# PTGCDA: a PU-learning-driven Transformer and GraphSAGE framework for circRNA-disease association prediction
 Copyright (C) 2026 Sicong Wang
 PTGCDA is a novel computational framework for predicting circRNA–disease associations (CDAs).
 It integrates:
